@@ -34,3 +34,7 @@ The model was succesfully trained and weights was obtained. <a href="https://git
 <p align="center">
   <img src="https://github.com/VIKNESH1211/Vessel-Detection/blob/main/YoloV5_method/results.png?raw=true" width="700" alt="accessibility text">
 </p>
+
+### Detection
+
+The model was tested on test images which were never before exposed to the model. The model returned a confidence score above 0.9 for every bounding box in the dectection.
