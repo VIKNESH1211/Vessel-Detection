@@ -5,9 +5,9 @@
 The project aims to train models which can detect marine vessels through images in ariel view and ideal view.
 
 _______
-# YoloV5_Method
+## YoloV5_Method
 
-## Data_set
+### Data_set
 
 The data set used for yolov5 method was the Ships-in-google-earth data set from kaggle, the annotations for the images in the data set are in XML format.
 
