@@ -12,3 +12,4 @@ _______
 The data set used for yolov5 method was the Ships-in-google-earth data set from kaggle, the annotations for the images in the data set are in XML format.
 
 The data set was uploaded into roboflow for agumentation and preprocessing 
+![Screenshot](screenshot.png)
