@@ -21,4 +21,10 @@ The images in the data-set was resized to 640x640 , agumentation of counter-cloc
 
 ### Training
 
-The model was trained using the yolov5s.pt weight which is available in the official ultralytics repository. The yolov5s.pt is the ideal weight which can be used for transfer learning on images with size of 640x640 using YoloV5
+The model was trained using the yolov5s.pt weight which is available in the official ultralytics repository. The yolov5s.pt is the ideal weight which can be used for transfer learning on images with size of 640x640 using YoloV5.
+
+Command used to train the model.
+```sh
+# To train the model
+!python train.py --img 640 --batch 16 --epochs 100 --data '/content/drive/MyDrive/yolo v5 ship detection/custom.yaml' --weights yolov5s.pt --cache .
+```
