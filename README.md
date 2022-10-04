@@ -32,5 +32,5 @@ The model was succesfully trained and weights was obtained. <a href="https://git
 
 The graphs below show the training metrics. The graphs was obtained using TensorBoard
 <p align="center">
-  <img src="https://github.com/VIKNESH1211/Vessel-Detection/blob/main/YoloV5_method/Ship%20detect%20yolo%20-%20v1%202022-10-04%2011_30am%20-%20Google%20Chrome%2004-10-2022%2006_58_19%20PM.png?raw=true" width="700" alt="accessibility text">
+  <img src="https://github.com/VIKNESH1211/Vessel-Detection/blob/main/YoloV5_method/results.png?raw=true" width="700" alt="accessibility text">
 </p>
