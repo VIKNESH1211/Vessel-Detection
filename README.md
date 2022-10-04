@@ -43,3 +43,15 @@ Command used for Detection.
 # To Detect.
 !python detect.py --weights "/content/drive/MyDrive/yolo v5 ship detection/exp/weights/last.pt" --img 640 --source "/content/test"
 ```
+<p align="center">
+  <img src="https://github.com/VIKNESH1211/Vessel-Detection/blob/main/YoloV5_method/Ship%20detect%20yolo%20-%20v1%202022-10-04%2011_30am%20-%20Google%20Chrome%2004-10-2022%2006_58_19%20PM.png?raw=true" width="700" alt="accessibility text">
+</p>
+<p align="center">
+  <img src="https://github.com/VIKNESH1211/Vessel-Detection/blob/main/YoloV5_method/Ship%20detect%20yolo%20-%20v1%202022-10-04%2011_30am%20-%20Google%20Chrome%2004-10-2022%2006_58_19%20PM.png?raw=true" width="700" alt="accessibility text">
+</p>
+<p align="center">
+  <img src="https://github.com/VIKNESH1211/Vessel-Detection/blob/main/YoloV5_method/Ship%20detect%20yolo%20-%20v1%202022-10-04%2011_30am%20-%20Google%20Chrome%2004-10-2022%2006_58_19%20PM.png?raw=true" width="700" alt="accessibility text">
+</p>
+<p align="center">
+  <img src="https://github.com/VIKNESH1211/Vessel-Detection/blob/main/YoloV5_method/Ship%20detect%20yolo%20-%20v1%202022-10-04%2011_30am%20-%20Google%20Chrome%2004-10-2022%2006_58_19%20PM.png?raw=true" width="700" alt="accessibility text">
+</p>
