@@ -29,3 +29,8 @@ Command used to train the model.
 !python train.py --img 640 --batch 16 --epochs 100 --data '/content/drive/MyDrive/yolo v5 ship detection/custom.yaml' --weights yolov5s.pt --cache .
 ```
 The model was succesfully trained and weights was obtained. <a href="https://github.com/VIKNESH1211/Vessel-Detection/blob/main/YoloV5_method/weight.pt" target="_blank">weight</a> 
+
+The graphs below show the training metrics. The graphs was obtained using TensorBoard
+<p align="center">
+  <img src="https://github.com/VIKNESH1211/Vessel-Detection/blob/main/YoloV5_method/Ship%20detect%20yolo%20-%20v1%202022-10-04%2011_30am%20-%20Google%20Chrome%2004-10-2022%2006_58_19%20PM.png?raw=true" width="700" alt="accessibility text">
+</p>
