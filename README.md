@@ -30,7 +30,7 @@ Command used to train the model.
 ```
 The model was succesfully trained and weights was obtained. <a href="https://github.com/VIKNESH1211/Vessel-Detection/blob/main/YoloV5_method/weight.pt" target="_blank">weight</a> 
 
-The graphs below show the training metrics. The graphs was obtained using TensorBoard
+**The graphs below show the training metrics.** The graphs was obtained using TensorBoard
 <p align="center">
   <img src="https://github.com/VIKNESH1211/Vessel-Detection/blob/main/YoloV5_method/results.png?raw=true" width="700" alt="accessibility text">
 </p>
