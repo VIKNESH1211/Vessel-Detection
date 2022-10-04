@@ -7,4 +7,8 @@ The project aims to train models which can detect marine vessels through images 
 _______
 ## YoloV5_Method
 
-#Data_Set
+##Data_set
+
+The data set used for yolov5 method was the Ships-in-google-earth data set from kaggle, the annotations for the images in the data set are in XML format.
+
+The data set was uploaded into roboflow for agumentation and preprocessing 
