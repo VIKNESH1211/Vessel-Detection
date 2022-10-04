@@ -21,4 +21,4 @@ The images in the data-set was resized to 640x640 , agumentation of counter-cloc
 
 ### Training
 
-The model was trained using the yolov5s.pt weight which is available in the official ultralytics repository.
+The model was trained using the yolov5s.pt weight which is available in the official ultralytics repository. The yolov5s.pt is the ideal weight which can be used for transfer learning on images with size of 640x640 using YoloV5
