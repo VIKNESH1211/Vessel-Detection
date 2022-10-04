@@ -18,3 +18,7 @@ The data set was uploaded into roboflow for agumentation and preprocessing.
 The images in the data-set was resized to 640x640 , agumentation of counter-clockwise of 90deg and horizontal and vertical flip was done.
 
 20% of the train data was used to make the validation data, therefore train-val seperation is done.
+
+### Training
+
+The model was trained using the yolov5s.pt weight which is available in the official ultralytics repository.
