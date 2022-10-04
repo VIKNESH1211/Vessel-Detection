@@ -13,6 +13,5 @@ The data set used for yolov5 method was the Ships-in-google-earth data set from 
 
 The data set was uploaded into roboflow for agumentation and preprocessing 
 <p align="center">
-  <img src="your_relative_path_here" width="350" title="hover text">
-  <img src="https://github.com/VIKNESH1211/Vessel-Detection/blob/main/YoloV5_method/Ship%20detect%20yolo%20-%20v1%202022-10-04%2011_30am%20-%20Google%20Chrome%2004-10-2022%2006_58_19%20PM.png?raw=true" width="350" alt="accessibility text">
+  <img src="https://github.com/VIKNESH1211/Vessel-Detection/blob/main/YoloV5_method/Ship%20detect%20yolo%20-%20v1%202022-10-04%2011_30am%20-%20Google%20Chrome%2004-10-2022%2006_58_19%20PM.png?raw=true" width="550" alt="accessibility text">
 </p>
