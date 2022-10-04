@@ -38,3 +38,8 @@ The model was succesfully trained and weights was obtained. <a href="https://git
 ### Detection
 
 The model was tested on test images which were never before exposed to the model. The model returned a confidence score above 0.9 for every bounding box in the dectection.
+Command used for Detection.
+```sh
+# To Detect.
+!python detect.py --weights "/content/drive/MyDrive/yolo v5 ship detection/exp/weights/last.pt" --img 640 --source "/content/test"
+```
