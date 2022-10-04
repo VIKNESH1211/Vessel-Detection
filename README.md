@@ -28,4 +28,4 @@ Command used to train the model.
 # To train the model
 !python train.py --img 640 --batch 16 --epochs 100 --data '/content/drive/MyDrive/yolo v5 ship detection/custom.yaml' --weights yolov5s.pt --cache .
 ```
-The model was succesfully trained and weights was obtained. <a href="https://github.com/VIKNESH1211/Vessel-Detection/blob/main/YoloV5_method/weight.pt" target="_blank">weights</a> 
+The model was succesfully trained and weights was obtained. <a href="https://github.com/VIKNESH1211/Vessel-Detection/blob/main/YoloV5_method/weight.pt" target="_blank">weight</a> 
