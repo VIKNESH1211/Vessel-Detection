@@ -16,3 +16,5 @@ The data set was uploaded into roboflow for agumentation and preprocessing.
   <img src="https://github.com/VIKNESH1211/Vessel-Detection/blob/main/YoloV5_method/Ship%20detect%20yolo%20-%20v1%202022-10-04%2011_30am%20-%20Google%20Chrome%2004-10-2022%2006_58_19%20PM.png?raw=true" width="700" alt="accessibility text">
 </p>
 The images in the data-set was resized to 640x640 , agumentation of counter-clockwise of 90deg and horizontal and vertical flip was done.
+
+20% of the train data was used to make the validation data, therefore train-val seperation is done.
