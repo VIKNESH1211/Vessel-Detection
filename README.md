@@ -58,4 +58,15 @@ Command used for Detection.
 
 ___________
 ## Classifier
+
 ### Data_Set
+
+The data set used to build the classifier is the 'Game of Deep Learning : Ship datasets' from kaggle https://www.kaggle.com/datasets/arpitjain007/game-of-deep-learning-ship-datasets.
+
+The data set had 6000+ images with its labels in a csv format.
+
+In the preprocessing , the images loaded into list and the images was resized/reshaped into (100 , 100, 3) and the list was the converted into an array , then by using sklearn's train_test_split twice the data was split into train test and val. And the labels in the csv were in the format of {'Cargo': 1,
+'Military': 2,
+'Carrier': 3,
+'Cruise': 4,
+'Tankers': 5}
