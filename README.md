@@ -85,3 +85,9 @@ model = tf.keras.Sequential([
   prediction_layer
 ])
 ```
+The number of epoch used was 20 , the optimizer used is RMSprop with a learning rate of 0.00001 and the loss function used is Categoricalcrossentropy.
+```sh
+model.compile(optimizer=tf.keras.optimizers.RMSprop(learning_rate=base_learning_rate),loss=tf.keras.losses.CategoricalCrossentropy(from_logits=False),
+              metrics=['accuracy'])
+model.fit(X_train , Y_train , epochs=20 , validation_data=(X_val, Y_val), verbose = 1)            
+```
