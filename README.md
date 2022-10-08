@@ -69,4 +69,19 @@ In the preprocessing , the images loaded into list and the images was resized/re
 'Military': 2,
 'Carrier': 3,
 'Cruise': 4,
-'Tankers': 5}
+'Tankers': 5} which was transformed into [0. 1. 0. 0. 0. 0.] , [0. 0. 1. 0. 0. 0.]  ,[0. 0. 0. 0. 1. 0.] ,etc using keras.utils.to_categorical.
+
+### Training
+
+The model was trained using the above preprocessed data and mobilenetv2 CNN architecture
+```sh
+base_model = tf.keras.applications.MobileNetV2(input_shape=IMG_SHAPE, include_top=False, weights='imagenet')
+global_average_layer = tf.keras.layers.GlobalAveragePooling2D()
+prediction_layer = tf.keras.layers.Dense(6,activation='softmax')
+
+model = tf.keras.Sequential([
+  base_model,
+  global_average_layer,
+  prediction_layer
+])
+```
