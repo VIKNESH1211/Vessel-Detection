@@ -91,3 +91,4 @@ model.compile(optimizer=tf.keras.optimizers.RMSprop(learning_rate=base_learning_
               metrics=['accuracy'])
 model.fit(X_train , Y_train , epochs=20 , validation_data=(X_val, Y_val), verbose = 1)            
 ```
+The model achived an accuracy of 0.9824 in train data , an accuracy of 0.8144 in Validation data and an accuracy of 0.8131 in model.evaluate() using test data.
